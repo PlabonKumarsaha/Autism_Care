@@ -1,0 +1,160 @@
+@media (max-width: 1024px){
+    h1{
+        color:red;
+
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.headerset {
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.headerset h2 {
+    font-size: 72px;
+}
+
+.headerset h1 {
+    font-size: 42px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    color: #555555;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 320;
+
+
+}
+
+#login-box{
+    position: relative;
+    margin: 5% auto;
+    height: 480px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    width: 720px;
+    padding: 15px;
+
+
+.left-box{
+
+    position: absolute;
+    top: 0;
+    left:0;
+    box-sizing: border-box;
+    padding: 45px;
+    width: 350px;
+    height: 400px;
+     background-size: center;
+
+}
+
+h4{
+
+    margin: 0 0 20px 0;
+    font-weight: 200;
+    font-size: 20px;
+}
+h2{
+    background-color: white;
+}
+
+}
+p{
+    font-size: 12px
+}
+
+
+input[type="text"]
+input[type="password"]
+{
+
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding: 6px;
+    width: 500px;
+    height: 32px;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+
+
+}
+
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 160px;
+    height: 32px;
+    background: #3881A2 ;
+    
+    border-radius: 20%;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+    background: #ff5722;
+    transition: 0.2s ease;
+
+}
+
+.right-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 370px;
+    height: 480px;
+    background-color: #3881A2 ;
+    background-size: center;
+    background-position: center;
+
+
+}
+
+.btn-danger{
+    border-radius: 10px;
+
+}
+
